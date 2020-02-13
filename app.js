@@ -5,7 +5,7 @@ const mongoose=require('mongoose');
 const dbConnection=require('./config/databaseConnection');
 const userRoute=require('./routes/user-route');
 const adminRoute=require('./routes/admin-route');
-const port = 3006;
+const port = 3007;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
